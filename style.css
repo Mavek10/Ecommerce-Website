@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400&display=swap');
+:root {
+    --color-body: green;
+    --color-heading: white;
+    --color-base: #033f47;
+    --color-base2: #022a30;
+    --color-brand: black;
+    --color-brand2: #e0f780;
+    --font-family: "Roboto Slab"
+}
+
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    /* background-color:var(--color-base); */
+}
+
+.nav-item a {
+    text-decoration: none;
+    color: var(--color-brand);
+    font-weight: 800;
+    text-transform: uppercase;
+    margin-right: 15px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+.nav-item a:hover {
+    color: var(--color-body);
+}
+
+.search {
+    height: 45px;
+    outline: none;
+    border: 2px solid var(--color-body);
+    background-color: transparent;
+    border-radius: 20px 0px 0px 20px;
+    border-right: none;
+}
+
+.search:focus {
+    outline: none;
+    box-shadow: none;
+    border: 2px solid var(--color-body);
+    border-right: none;
+}
+
+.btn1 {
+    height: 45px;
+    outline: none;
+    border: 2px solid var(--color-body);
+    box-shadow: none;
+    background-color: var(--color-body);
+    border-radius: 0px 20px 20px 0px;
+    border-right: none;
+}
+
+.bi-bi-search {
+    font-size: 30px;
+    color: var(--color-body);
+    cursor: pointer;
+    padding-top: 5px;
+}
+
+.bi-bi-search:hover {
+    color: var(--color-body);
+}
+
+main {
+    /* width: 100vw;
+    height: calc(100vh - 84px); */
+    background-position: 0%;
+    background-image: url('https://i.postimg.cc/8PJJYR2t/7d5b914d17b164f989976ef321169417.jpg') !important;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.main h1 {
+    font-size: 5rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.main p:nth-child(1) {
+    font-size: 18px;
+    font-weight: 600;
+    font-family: var(--font-family);
+}
+
+.lead {
+    font-size: 18px;
+    font-weight: 600;
+    color: whitesmoke;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.mbtn1 {
+    height: 50px;
+    width: 25%;
+    outline: none;
+    border: none;
+    color: var(--color-heading);
+    background-color: var(--color-body);
+    border-radius: 50px;
+    transition: all 0.4s;
+}
+
+.mbtn1:hover {
+    background-color: var(--color-body);
+}
+
+.mbtn2 {
+    height: 50px;
+    width: 25%;
+    outline: none;
+    border: none;
+    color: var(--color-body);
+    border: 2px solid var(--color-body);
+    background-color: var(--color-heading);
+    border-radius: 50px;
+    transition: all 0.4s;
+}
+
+.mbtn2:hover:hover {
+    background-color: var(--color-body);
+}
+
+.about {
+    background: url(https://i.postimg.cc/zfnmdGSx/c6ddb7f5756275bd1821f39d7b89e5e2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0;
+}
+
+.about h1 {
+    font-size: 5rem;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
